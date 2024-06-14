@@ -1,34 +1,55 @@
-# Testes automatizados com Cypress - Intermediário
+# cypress-intermediate
 
-👋 Seja bem-vinda(o)!
+We will test a complex application for the [**TAT School Cypress Intermediate course**](https://udemy.com/user/walmyr). This application is an open-source version of GitLab, running in a container in your local environment.
 
-É muito bom tê-la(o) aqui. Tenho certeza que você vai adorar este curso. ❤️
+## Pre-requirements
 
-## O que você vai aprender
+It is required to have Node.js, npm, git and Docker installed to run this project.
 
-Durante o curso de testes automatizados com Cypress (intermediário) você vai aprender:
+- [Docker](https://www.docker.com/) ( I'm using the version `24.0.5` )
+- [git](https://git-scm.com/) ( I'm using the version `2.39.2` )
+- [Node.js](https://nodejs.org/en/) ( I'm using the version `v18.17.1` )
+- npm ( I'm using the version `9.6.7` )
 
-- Como configurar o ambiente local de desenvolvimento
-- Como instalar e configurar o Cypress
-- Como criar testes automatizados de interface gráfica de usuário
-- Como criar testes automatizados de API (com _feedback_ visual no navegador)
-- Como testar APIs que necessitam um _token_ de acesso
-- Como criar testes otimizados e direto-ao-ponto
-- Como salvar a sessão do usuário no navegador para posterior restauração
-- Como validar se a sessão do usuário ainda é válida e como lidar com isso quando a mesma é invalidada
-- Como fazer a limpeza e criação da massa de dados antes do teste começar
-- Como proteger dados sensíveis, tais como senhas e _tokens_ de acesso
-- Como organizar os testes e comandos customizados em diferentes "camadas" (_API, CLI, GUI_)
-- Como estruturar os testes pensando em pré-condições, ações e resultados esperados
-- Como gerar dados aleatórios para uso nos testes automatizados
-- Como habilitar funcionalidades experimentais do Cypress
-- Como executar comandos à nível de sistema operacional
-- E como testar a leitura de arquivos
+>I recommend using the same or more recent versions of the systems listed above.
+>
+>To check the versions of Docker, git, Node.js, and npm installed on your computer, run the command `docker --version && git --version && node --version && npm --version` in your command-line terminal.
 
-## Vamos começar?
+Before you begin, ensure the following requirements are met:
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+- Computer with at least 2 cores
+- and at least 8 GB of RAM
 
+## Installation
+
+Run `npm install` (or `npm i` for the short version) to install the dev dependencies.
+
+## Tests
+
+Run `npm test` (or `npm t` for the short version) to run the test in headless mode.
+
+Or, run `npm run cy:open` to open Cypress in interactive mode.
+
+## What will you learn
+
+During the automated testing course with Cypress (intermediate), you will learn the following:
+
+- How to configure the local development environment
+- How to install and configure Cypress
+- How to create automated graphical user interface tests
+- How to create automated API tests (with visual _feedback_ in the browser)
+- How to test APIs that require an access _token_
+- How to create optimized and straight-to-the-point tests
+- How to save the user session in the browser for later restoration
+- How to validate if the user session is still valid and how to deal with it when it is invalidated
+- How to clean and create the mass of data before testing begins
+- How to protect sensitive data, such as passwords and access tokens
+- How to organize tests and custom commands into different "layers" (_API, CLI, GUI_)
+- How to structure tests thinking about preconditions, actions and expected results
+- How to generate random data for use in automated tests
+- How to enable experimental Cypress features
+- How to execute commands at the operating system level
+- And how to test file reading
 ___
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+This project was created with ❤️ by [Igor Dias](https://igordiasth.dev).
